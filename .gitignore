@@ -1,0 +1,50 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+sites/*/*settings*.php
+
+# Ignore paths that contain generated content.
+cache/
+files/
+sites/*/files
+sites/*/private
+dist/
+modules/
+node_modules/
+
+# local env files
+.env
+.env.local
+.env.*.local
+desktop.ini
+
+
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iws
+*.iml
+*.ipr
+
+# Ignore default text files
+.htaccess
+robots.txt
+/CHANGELOG.txt
+/COPYRIGHT.txt
+/INSTALL*.txt
+/LICENSE.txt
+/MAINTAINERS.txt
+/UPGRADE.txt
+/README.txt
+sites/all/README.txt
+sites/all/modules/README.txt
+sites/all/themes/README.txt
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
